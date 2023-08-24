@@ -1,0 +1,9 @@
+{
+    "log_format": "[SPACE]",
+    "enable_feature1": true,
+    "feature1_settings": {
+        "option1": "value1",
+        "option2": "value2"
+    },
+    "enable_feature2": false
+}

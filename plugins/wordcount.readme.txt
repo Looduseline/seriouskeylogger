@@ -1,0 +1,29 @@
+he key difference between the two implementations is in how they count words:
+
+Your implementation:
+
+python
+Copy code
+word_count = 0
+
+def count_words(key):
+    global word_count
+    if key == ' ':
+        word_count += 1
+        log_key_press(f'Word count: {word_count}')
+My implementation:
+
+python
+Copy code
+def count_words(key):
+    text = str(key)  # Convert the key to a string
+    word_count = len(text.split())  # Count words by splitting the text by spaces
+    print(f"Word count: {word_count}")
+You can choose the implementation that fits your requirements. If you're not seeing the word count logged, make sure that the count_words function is being called appropriately when the space key is pressed. Also, ensure that the log_key_press function is correctly implemented in your log_formatter.py file.
+
+
+does not work jet, 
+will look in to that later
+
+
+thsi will be v 5
