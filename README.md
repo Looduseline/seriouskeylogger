@@ -16,4 +16,12 @@ It's crucial to bear in mind the overarching plan for the software: the graphica
 PS: we also can not write proper, this is thanks to language model. 
 
 
+In the first set of tests located at:  https://github.com/Looduseline/seriouskeylogger/tree/master
+ the current focus lies on the need to improve the system's capability. Specifically, the goal is to enable it to capture words, sentences, and conversations in contrast to the current functionality of recording individual letters line by line in the initial version (v0.py). Please note that v0.py serves as a standalone and basic sample. The more comprehensive functionality originates from the main.py file.
+
+The primary objective now is to enhance the system's capacity to record complete words, sentences, and conversational context rather than isolating individual letters within each line. This improvement aims to provide more meaningful and accurate logs.
+
+To achieve this advancement, Serious KeyLogger (SKL) needs to incorporate text analysis. This involves dissecting input text into words, sentences, and contextual units. The collected data will then be organized and stored accordingly. Implementing this may require employing more advanced text processing and parsing techniques. If you require guidance or assistance along this journey, feel free to seek help.
+
+
 In dedication to my mother. 
